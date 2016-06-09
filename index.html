@@ -1,22 +1,71 @@
 <!DOCTYPE html>
-<html>
-<style>
-	body {
-	Background-color :rgb(0,255,255);
-	}
-</style>
+<html> 
 
+<head>
+
+	<link rel="stylesheet" type="text/css" href="MyStyles.css" />
+
+</head>
+	
 	<body>
-		<h1 style="color:Red" >This is the next step to my coding journey...</h1>
-		<p style= "color:blue">Pioneering a way forward.</p>
-
-		<a href= "https://www.codecademy.com/" > The Link that will set you up to code lika boss </a>
-
-		<Br>
-
-		<img src = "CODE.png">
+	<div class='menu'>
+		<h1>THIS IS HOW WE CODE </h1>
+		<a href="aboutme.html"> About Me</a>
 		
-	</body>
+		<br>
+		<a href="contactme.html"> Contact Me </a>
+		<br>
+		<a href="gallery"> Gallery</a>
+		</div>
+
+	<div class='page'>
+	     	<h1>Hello there Everyone!</h1> 
+	    	<p>We are now coding exse.</p>
+		<a target= 'blank'href= 'http://www.iiasa.org.za/'>
+		<img src= 'CIA1.jpg' Height='150'>
+		
+		IIASA - </a>
+
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+		<br>
+
+		<img src='twelve-apostles-cape-town.jpg' height='100'>
+
+		<h1> I need to find more things to add to this page...</h1>
+		<p class='Class1'>So, what can I do to make this page more interesting.</p>
+
+		<p> I spoke to my fellow developer and we came up with an amazing idea, so we are going to rip up the IT environment. Watch this space!</p>
+
+		This is the date: <span id="dategoeshere">Date</span>
+
+	</div>
+
+
+</body>
+
+<script>
+var today = new Date();
+console.log ("I've have got the date:"+ today);
+document.getElementById('dategoeshere').innerHTML = today; 
+
+var hour = today.getHours();
+
+if (hour < 12) {
+	document.getElementById('dategoeshere').innerHTML = ' Good Morning It is:' + today.toDateString(); 
+
+}
+
+else if (hour >= 12) {
+	document.getElementById('dategoeshere').innerHTML = 'You are in the Afternoon. Good day!' + today.toDateString();
+
+}
+
+</script>
 
 </html>
+
 
