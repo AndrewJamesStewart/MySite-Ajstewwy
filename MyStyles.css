@@ -1,0 +1,28 @@
+body {
+	     background-color :orange;
+		}	
+		
+		.Class1 { color: green
+			;}
+
+		h1 { color:blue;
+			font-family: Impact, Charcoal, sans-serif;
+			}
+		h3 { 
+			color :blue;
+			}
+		div { 
+		border: 3px solid
+		;}	
+		
+		.page{ 
+			width: 75%;
+			display: inline;
+			float: left;
+			}
+
+		.menu {
+			width: 25%;
+			display: inline;
+			float: left;
+		}
